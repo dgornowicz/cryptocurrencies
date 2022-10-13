@@ -31,5 +31,24 @@ The best K-Value appears to be 4 so we will use this value for our clustering.
 <img width="305" alt="3dScatter" src="https://user-images.githubusercontent.com/102050273/195731254-d49bc9d3-ed96-4c9a-b41e-06e87a69e0d4.png">
 
 This 3D-Scatter plot was obtained using the PCA algorithm to reduce the cryptocurrencies dimensions to three principal components.
+
+#### 2D-Scatter plot with clusters
+<img width="358" alt="2pcaScatter" src="https://user-images.githubusercontent.com/102050273/195731582-e8ab7d28-6786-4827-bce9-96c0c3c9dcac.png">
+
+This scatter plot was obtained using the PCA algorithm to reduce the cryptocurrencies dimensions to two principal components.
 <br><br>
+Both of the scatter plots show the distribution and the four clusters of cryptocurrencies. We can identify the outliers like the unique cryptocurrency in class 2.
+
+#### Tradable Crytocurrencies Table
+<img width="340" alt="hvplotTable" src="https://user-images.githubusercontent.com/102050273/195731540-2e62f5eb-6c2d-4d73-ac9f-e090f7f9f02b.png">
+Most of the cryptocurrencies are part of class 0 or 1. The table above shows that BitTorrent is the only cryptocurrency in class 2.
+
+#### 2D-Scatter plot with TotalCoinsMined vs TotalCoinSupply
+<img width="355" alt="supplyVSmined" src="https://user-images.githubusercontent.com/102050273/195732136-88970769-2498-4077-870c-654e13d14794.png">
+Plotting the scatter plot from two cryptocurrency features directly does not efficiently segregate the different classes. Therefore, using the PCA algorithm is the right method for better visualizations.
+<br><br>
+
+## Summary
+We have identified the classification of 532 cryptocurrencies based on similarties between their features.\
+Further analysis of the cryptocurrencies would be needed to asses their performance for potential investment.
 
